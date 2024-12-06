@@ -6,9 +6,7 @@ This repository contains a bot designed to interact with the [Datapig API](https
 
 - **Automatic Wallet Processing**: It processes each wallet's data, generates preferences, signs messages, and submits them.
 - **Retry Mechanism**: The bot retries minting files in case of failure (up to 3 retries).
-- **Daily Limit Handling**: Automatically detects and handles the "Daily Limit Reached" (HTTP 429 status code) response from the Datapig API and moves on to the next wallet.
-- **Transaction Hash Confirmation**: The bot confirms transaction hashes after minting files.
-- **Customization**: Supports integration with your private keys and reference codes.
+- **Daily Limit Handling**: Automatically detects and handles the "Daily Limit Reached" response from the Datapig API and moves on to the next wallet.
 - **Scheduled Execution**: The bot runs every 24 hours, automatically processing the wallets at the set interval.
 
 ---
