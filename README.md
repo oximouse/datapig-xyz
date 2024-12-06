@@ -37,7 +37,8 @@ Follow these steps to set up the project on your local machine:
   ```
 
 3. **Setup private_keys.txt**
-- **Create a file named private_keys.txt in the root directory of the project. REF_CODE is the account that referes you
+   
+Create a file named private_keys.txt in the root directory of the project. REF_CODE is the account that referes you
 ```bash
 <PRIVATE_KEY_1>,<REF_CODE_1>
 <PRIVATE_KEY_2>,<REF_CODE_2>
