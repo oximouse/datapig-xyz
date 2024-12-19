@@ -4,10 +4,10 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 // Configuration
-const RPC = 'https://rpc.moksha.vana.org';
+const RPC = 'https://rpc.vana.org';
 const web3 = new Web3(new Web3.providers.HttpProvider(RPC));
 const PRIVATE_KEYS_FILE = 'private_keys.txt';
-const ROUTER_ADDRESS = '0xCFd016891E654869BfEd5D9E9bb76559dF593dbc';
+const ROUTER_ADDRESS = '0x1De5634224e5eA8b51fD91c5671f8EB0c5C9f086';
 const ROUTER_ABI = [
     {
         "name": "addFile",
