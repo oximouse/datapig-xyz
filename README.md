@@ -28,7 +28,7 @@ Follow these steps to set up the project on your local machine:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/ganjsmoke/datapig-xyz.git
+   git clone https://github.com/oximouse/datapig-xyz
    cd datapig-xyz
    ```
 2. **Install Dependencies**:
